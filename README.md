@@ -13,7 +13,7 @@ There are several ipynb and py files under the Files section to the left. vgg-cn
 
 #### [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) is the popular replacement for the handwritten digit MNIST dataset. It offers more of an accuracy challenge. Each image is an article of clothing and the goal is to correctly classify the images.
 
-[img](/results/mnist fashion.png)
+![img](results/mnist fashion.png)
 
 #### Most first-attempt networks on MNIST get around 90% accuracy and only take a few minutes to train. This project uses a network that will get better accuracy, but will take longer to train. It is based on the [VGG CNN](https://www.quora.com/What-is-the-VGG-neural-network) network. It uses batch normalization and [data augmentation](https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced).  my benchmark.
 
