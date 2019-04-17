@@ -1,0 +1,34 @@
+[TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
+[I 17:14:57.324 NotebookApp] Copying /home/ubuntu/.ipython/profile_default/static/custom/custom.js -> /home/ubuntu/.jupyter/custom/custom.js
+[I 17:14:57.335 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 17:14:57.380 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+/usr/local/anaconda/lib/python3.6/importlib/_bootstrap.py:205: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+[I 17:14:59.490 NotebookApp] jupyter_tensorboard extension loaded.
+[I 17:14:59.496 NotebookApp] Serving notebooks from local directory: /
+[I 17:14:59.496 NotebookApp] 0 active kernels 
+[I 17:14:59.497 NotebookApp] The Jupyter Notebook is running at: http://172.17.0.3:8888/
+[I 17:14:59.497 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 17:15:08.663 NotebookApp] 302 GET /tree/%2Fmnt%2Fvgg-cnn.ipynb (10.0.148.12) 2.23ms
+[I 17:15:18.800 NotebookApp] 302 GET / (10.0.125.128) 0.56ms
+[I 17:15:18.830 NotebookApp] 302 GET /tree/%2Fmnt%2Fvgg-cnn.ipynb (10.0.125.128) 1.13ms
+[I 17:15:21.055 NotebookApp] 302 GET /tree/%2Fmnt%2Fvgg-cnn.ipynb (10.0.125.128) 1.35ms
+[I 17:15:31.898 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 17:15:31.900 NotebookApp] Notebook mnt/vgg-cnn.ipynb is not trusted
+[I 17:15:34.112 NotebookApp] Kernel started: a916fbcc-8f18-46b4-a7d3-cb8956538c84
+[I 17:15:35.309 NotebookApp] Adapting to protocol v5.1 for kernel a916fbcc-8f18-46b4-a7d3-cb8956538c84
+[I 17:17:36.653 NotebookApp] Saving file at /mnt/vgg-cnn.ipynb
+[W 17:17:36.654 NotebookApp] Saving untrusted notebook mnt/vgg-cnn.ipynb
+2018-12-10 17:21:37.739008: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-12-10 17:21:38.104986: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-12-10 17:21:38.105248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GRID K520 major: 3 minor: 0 memoryClockRate(GHz): 0.797
+pciBusID: 0000:00:03.0
+totalMemory: 3.94GiB freeMemory: 3.90GiB
+2018-12-10 17:21:38.105321: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0, compute capability: 3.0)
+[I 17:21:45.401 NotebookApp] Saving file at /mnt/vgg-cnn.ipynb
+[I 17:25:45.040 NotebookApp] Saving file at /mnt/vgg-cnn.ipynb
+[I 17:27:45.003 NotebookApp] Saving file at /mnt/vgg-cnn.ipynb
+[I 17:28:26.383 NotebookApp] Saving file at /mnt/vgg-cnn.ipynb
+[W 17:28:35.311 NotebookApp] WebSocket ping timeout after 119850 ms.
